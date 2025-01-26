@@ -14,10 +14,16 @@ Game::~Game()
     cout << endl <<"Peli tuhottu ja maksimiarvo nollattu" << endl;
 }
 
+void Game::printGameResult()
+{
+    std::cout << endl << "Oikea numero oli: " << randNum << endl;
+    std::cout << "Pelaajan arvaukset: " << numOfGuesses << endl;
+}
+
 void Game::play()
 {
     srand(time(NULL));
-    randNum = rand() % 40;
+    randNum = rand() % maxNum;
     cout << "Arvaa luku asteikolla 0 - " << maxNum << endl;
 
     while (true)
@@ -28,6 +34,7 @@ void Game::play()
         if(playerGuess == randNum)
         {
             cout << "Oikein arvattu!" << endl;
+            printGameResult();
             break;
         }
         if(playerGuess < randNum)
@@ -39,10 +46,4 @@ void Game::play()
             cout << "Luku on pienempi" << endl;
         }
     }
-}
-
-void Game::printGameResult()
-{
-    std::cout << endl << "Oikea numero oli: " << randNum << endl;
-    std::cout << "Pelaajan arvaukset: " << numOfGuesses << endl;
 }

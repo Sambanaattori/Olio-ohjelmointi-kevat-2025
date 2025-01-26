@@ -2,10 +2,9 @@
 
 int main()
 {
-    Game olio1(20);
+    Game olio1(1);
 
     olio1.play();
-    olio1.printGameResult();
 
     return 0;
 }

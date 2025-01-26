@@ -8,10 +8,7 @@ class Game
         ~Game();
         void play();
 
-    // En saanut pelejä toimimaan kun muuttujat olivat private osiossa
-    // Ohjelma ei pystynyt lukemaan niitä jostain syystä?
-
-        //private:
+    private:
         int maxNum;
         int playerGuess;
         int randNum;
