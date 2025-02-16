@@ -1,0 +1,7 @@
+C:/Users/va/OneDrive - University of Oulu and Oamk/1_koodit/QT/Vko6_uudestaan/build/CMakeFiles/Vko6_uudestaan.dir
+C:/Users/va/OneDrive - University of Oulu and Oamk/1_koodit/QT/Vko6_uudestaan/build/CMakeFiles/edit_cache.dir
+C:/Users/va/OneDrive - University of Oulu and Oamk/1_koodit/QT/Vko6_uudestaan/build/CMakeFiles/rebuild_cache.dir
+C:/Users/va/OneDrive - University of Oulu and Oamk/1_koodit/QT/Vko6_uudestaan/build/CMakeFiles/list_install_components.dir
+C:/Users/va/OneDrive - University of Oulu and Oamk/1_koodit/QT/Vko6_uudestaan/build/CMakeFiles/install.dir
+C:/Users/va/OneDrive - University of Oulu and Oamk/1_koodit/QT/Vko6_uudestaan/build/CMakeFiles/install/local.dir
+C:/Users/va/OneDrive - University of Oulu and Oamk/1_koodit/QT/Vko6_uudestaan/build/CMakeFiles/install/strip.dir
